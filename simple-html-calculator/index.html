@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <h1>Simple HTML Calculator</h1>
+        <!-- Div Section 1 of 3 (0)-->
+        <div >   
+        <h2>Addition</h2>
+        <form name="addition" id="add"> 
+        <!-- Input 1 of 2 -->
+            <input type="number" name="firstNumber" placeholder="firstnumber"/>
+            <!-- LINE BELOW is the OLD code. -->
+            <!-- <input type="number" name="firstNumber" placeholder="firstnumber" style="background-color:#33475b"/> -->
+        <!-- Input 2 of 2 -->
+            <input type="number" name="secondNumber" placeholder="secondnumber"/>
+        <!-- Submit button -->
+            <button>Submit</button>
+        </form>
+    </div>
+        <!-- Div Section 2 of 3 (1)-->
+        <div>
+        <h2>Subtraction</h2>
+        <form name="subtraction">
+        <!-- Input 1 of 2 -->
+            <input type="number" name="thirdNumber" placeholder="thirdnumber"/>
+        <!-- Input 2 of 2 -->
+            <input type="number" name="fourthNumber" placeholder="fourthnumber"/>
+        <!-- Submit button -->
+            <button>Submit</button>
+        </form>
+    </div>
+        <!-- Div Section 3 of 3 (2)-->
+        <div>
+        <h2>Multiplication</h2>
+        <form name="multiplication">
+        <!-- Input 1 of 2 -->
+            <input type="number" name="fifthNumber" placeholder="fifthnumber"/>
+        <!-- Input 2 of 2 -->
+            <input type="number" name="sixthNumber" placeholder="sixthnumber"/>
+        <!-- Submit button -->
+            <button>Submit</button>
+        </form>
+    </div>
+        <script src="index.js"></script>
+    </body>
+</html>
+<!-- You are going to create a simple calculator that can Add, Subtract, and Multiply.
+
+**Requirements:**
+
+- You will have one section (`<div>`) for each math operation (so 3 sections) total
+- Each section has two inputs to take the first and second numbers
+- Each section will have a button to perform the operation
+- You will inject the result into the HTML (not an alert)
+- Your website will have 3 colors
+- Your website will have proper padding/spacing to lay things out nicely -->

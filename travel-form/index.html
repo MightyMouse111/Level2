@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <form name="travelForm">
+        <input type="text" name="firstname" placeholder="First Name" id="firstname" required/>
+        <input type="text" name="secondname" placeholder="Last Name" id="lastname" required/>
+        <input type="number" name="age" placeholder="Age" id="age" required/> 
+        <br>
+        Select Gender:
+        <br>
+       Male: <input type="radio" name="gender" value="Male"  id="male" required/>
+       <br>
+       Female: <input type="radio" name="gender" value="Female" id="female" required/>
+       <br>
+       Other: <input type="radio" name="gender" value="Other" id="other" required/>
+        <br>
+
+        <select name="travel-location" id="travel-location">
+            <option value="Colorado">Colorado</option>
+            <option value="Oregon">Oregon</option>
+            <option value="Washington">Washington</option>
+        </select>
+
+        <br>
+        We do have meals provided on the plane, however knowledge of your Dietary Restrictions could help us accommodate your needs.
+        Please select one or more of the options we have listed to best fit your needs:
+        <br>
+       Lactose Intolerance:<input type="checkbox" name="dietary" value=" Lactose Intolerance" />
+       <br>
+       Gluten Intolerance:<input type="checkbox" name="dietary" value=" Gluten Intolerance" />
+       <br>
+       Vegetarianism:<input type="checkbox" name="dietary" value=" Vegetarianism" />
+       <br>
+       <br>
+       <button>Submit</button>
+    </form>
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
+
+<!-- Continue lesson "Forms part 2" @14min 40sec -->

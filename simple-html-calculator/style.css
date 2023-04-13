@@ -1,0 +1,47 @@
+body {
+    background-color:slategray;
+    padding: 155px;
+    margin: 75px;
+}
+input {
+    background-color : #9cf;
+    color : #000;
+    font-style: italic;
+    font-size: medium;
+    text-align: center;
+    font-weight: bold;
+    /* margin: 1px; */
+    padding: 10px;
+    }
+
+h3{
+    background-color:gold;
+    font-size:medium;
+    /* font-weight: bold; */
+    text-align: center;
+    padding: 5px;
+    margin: 10px 225px 10px 225px;
+    max-width: 300px;
+}
+h2 {
+    background-color: violet;
+    text-align: center;
+}
+h1 {
+    color:azure;
+    text-align: center;
+}
+/* #add {
+    background-color:blueviolet
+} */
+.add {
+    display: flex;
+    justify-content: center;
+    /* margin: 20px 187px 20px 200px; */
+    /* justify-content: center; */
+    /* align-content: center; */
+}
+
+/* div :nth-child(2){
+    background-color: red;
+} */
